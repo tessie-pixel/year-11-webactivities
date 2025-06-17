@@ -1,0 +1,223 @@
+/*This is where we put the style information for our website*/
+
+body {
+    text-align: center;
+    max-width: 1000px;
+    min-width: 600px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.heading h1 {
+    display: inline-block;
+}
+
+.links {
+    display: inline-block;
+}
+
+.links li {
+    display: inline-block;
+}
+.links a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 8px;
+}
+
+navbar {
+    margin: 32px;
+}
+h1 {
+    color: aqua;
+}
+h2 {
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+    font-family: "Inconsolata", monospace;
+}
+img {
+    border-radius: 20px;
+}
+
+p {
+    font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.pink {
+    color: pink;
+}
+
+.colours {
+    background-color: pink;
+    border-radius: 20px;
+    width: 800px;
+    height: 270px;
+    margin: auto;
+}
+
+.blue {
+    color: paleturquoise;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.green {
+    color: palegreen;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.yellow {
+    color: palegoldenrod;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.photos{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: paleturquoise;
+    border-radius: 20px;
+    width: 800px;
+    height: 270px;
+
+}
+
+.images {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+.video {
+    height: 500px;
+    width:600px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    border-radius: 20px; 
+}
+
+.video-title {
+   margin-top: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr) ;
+    grid-template-rows: 60px 50px 60px 50px 60px 50px 60px 50px 60px 50px;
+    grid-gap: 10px;
+    margin-top: 40px;
+}
+
+.box-1 {
+    grid-row-start: 1;
+    grid-row-end:2 ;
+    grid-column-end: 1;
+    grid-column-start: 11;
+    background-color: rgb(226, 250, 250);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-2 {
+    grid-row-start: 2;
+    grid-row-end:8 ;
+    grid-column-end: 1;
+    grid-column-start: 3;
+    background-color: rgb(247, 191, 223);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-3 {
+    grid-row-start: 2;
+    grid-row-end:4 ;
+    grid-column-end: 3;
+    grid-column-start: 11;
+    background-color: rgb(252, 227, 205);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-4 {
+    grid-row-start: 4;
+    grid-row-end:7 ;
+    grid-column-end: 3;
+    grid-column-start: 6;
+    background-color: rgb(241, 227, 248);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-5 {
+    grid-row-start: 4;
+    grid-row-end:11 ;
+    grid-column-end: 6;
+    grid-column-start: 11;
+    background-color: rgb(227, 248, 227);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box-6 {
+    grid-row-start: 7;
+    grid-row-end:8 ;
+    grid-column-end: 3;
+    grid-column-start: 6;
+    background-color: rgb(227, 232, 248);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-7 {
+    grid-row-start: 8;
+    grid-row-end:11 ;
+    grid-column-end: 1;
+    grid-column-start: 6;
+    background-color: rgb(255, 204, 213);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-baby {
+    width: 100px;
+    height:100px;
+    margin:20px;
+    background-color: azure;
+}

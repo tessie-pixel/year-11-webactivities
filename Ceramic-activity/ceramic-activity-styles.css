@@ -1,0 +1,95 @@
+body {
+    font-family: "Cormorant", serif;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: 300;
+    margin: 0 32px 0 0;
+}
+
+.links {
+    display: inline-block;
+}
+
+.links li {
+    display: inline-block;
+}
+
+.links a { 
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 8px;
+}
+
+.navbar {
+    margin: 32px;
+}
+
+h2{
+    display: inline-block;
+}
+
+.card {
+    width: 49.75%; 
+    display: inline-block;
+    box-sizing: border-box;
+    padding:16px;
+}
+
+.links ul {
+    padding:0%;
+    margin
+}
+
+a.active {
+    border-bottom: 1px solid black;
+}
+
+.gallery{
+    padding:16px;
+}
+
+.card img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover; /*check out object fit on MDN */
+}
+
+.card h2 {
+    display: inline-block;
+    margin: 8px 0 0 0;
+    font-weight: 300;
+}
+
+.about{ 
+    width:40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px;
+}
+
+.about h3{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.cta {
+    border-bottom: 1px solid black;
+    display: inline-block; /* to prevent the border from stretching beyond the text like a block element*/ 
+    padding-bottom: 8px;
+}
+
+.card img:hover { /*by specifying 'card' we can future proof our website incase additional images are added*/
+    opacity: 0.9;
+}
+

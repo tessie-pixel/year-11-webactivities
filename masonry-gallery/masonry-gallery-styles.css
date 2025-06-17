@@ -1,0 +1,33 @@
+body {
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    column-count: 3; /*this determines how many columns we want our gallery container to have */
+    column-gap: 10px; /*this is the gap between our columns */
+    padding: 15px; /*padding is the space between our item and the border */
+    max-width: 1200px; /*this determines the maximum width of our gallery */
+    margin: 0 auto; /*the margin is the space around the outside of our gallery */
+}
+
+.gallery-item {
+    margin-bottom: 10px;
+    background: white; 
+    padding: 5px;
+    border-radius: 8px; /*this curves the corners of our image cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .15); /*is a shadow cast by our cards*/
+    transition: transform 0.3s ease-in-out;/*this softens the animation - added later on */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.gallery-item:hover {
+    transform: scale(1.02); /*don't worry too much about this, this is just a fun little aniamtion effect */
+}

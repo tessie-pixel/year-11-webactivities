@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Page setup and linking to CSS/JS -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="js-search-styles.css"> <!-- Link to CSS file -->
+  <script src="js-search-script.js" defer></script> <!-- Link to JS file, deferred until HTML loads -->
+  <title>User Search</title>
+</head>
+<body>
+  <!-- Search input area -->
+  <div class="search-wrapper">
+    <label for="search">Search Users</label>
+    <input type="search" id="search" data-search>
+  </div>
+
+  <!-- Area where user cards will be added -->
+  <div class="user-cards" data-user-cards-container></div>
+
+  <!-- Hidden template for user cards -->
+  <template data-user-template>
+    <div class="card">
+      <div class="header" data-header></div>
+      <div class="body" data-body></div>
+    </div>
+  </template>
+</body>
+</html>

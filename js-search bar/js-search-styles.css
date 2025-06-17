@@ -1,0 +1,43 @@
+/* Container for the search box */
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem; /* space between label and input */
+  }
+  
+  /* Style the input text */
+  input {
+    font-size: 1rem;
+  }
+  
+  /* Layout for the grid of user cards */
+  .user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* responsive columns */
+    gap: .25rem;
+    margin-top: 1rem;
+  }
+  
+  /* Individual card styling */
+  .card {
+    border: 1px solid black;
+    background-color: white;
+    padding: .5rem;
+  }
+  
+  /* Header inside each card */
+  .card > .header {
+    margin-bottom: .25rem;
+  }
+  
+  /* Body text inside each card */
+  .card > .body {
+    font-size: .8rem;
+    color: #777;
+  }
+  
+  /* Class used to hide cards when they don’t match the search */
+  .hide {
+    display: none;
+  }
+  
