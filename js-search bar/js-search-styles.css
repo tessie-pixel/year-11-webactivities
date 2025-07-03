@@ -40,4 +40,23 @@
   .hide {
     display: none;
   }
-  
+   /* Style for code page */
+.code-pg {
+  margin: 0 auto;
+}
+
+   .code-pg a {
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+   }
+
+   .code-pg iframe {
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+   }
