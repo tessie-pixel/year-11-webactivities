@@ -2,6 +2,8 @@
 body{
     text-align: center;
     margin: auto;
+    background-image: url(images/background.jpg);
+    
 }
 .main-content {
     text-align: center;
@@ -27,7 +29,8 @@ body{
 
 /*Nav bar*/
 .links {
-    display: inline-block;
+    background-color: hsla(248, 60%, 70%, .4);
+    padding: 20px;
 }
 
 .links li {
@@ -38,6 +41,8 @@ body{
     text-decoration: none;
     font-size: 20px;
     margin: 0 8px;
+    font-family: "Inconsolata", monospace;
+    padding: 20px;
 }
 
 
@@ -47,8 +52,10 @@ body{
     display: none;
     position: absolute;
     background-color: hsl(309, 100%, 97%);
+    border-radius: 20px;
     min-width: 100px;
     box-shadow: 2px 2px 5px hsla(0, 44%, 82%, 0.8);
+    margin-top: 10px;
 }
 /*Makes the drop down menu visable when hovering over js-search on the nav bar*/
 .js-search-pg:hover .content-js-search{
@@ -61,12 +68,18 @@ body{
 /*When you hover over an item on the nav bar*/
 .links a:hover{
     background-color: hsl(272, 100%, 90%);
+    border-radius: 20px;
 }
+
 
 
 h1 {
-    color: aqua;
+    color: rgb(33, 33, 79);
+    font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
+
 h2 {
     top: 50%;
     width: 100%;
@@ -87,11 +100,11 @@ p {
 }
 
 .pink {
-    color: pink;
+    color: rgb(255, 127, 208);
 }
 
 .colours {
-    background-color: pink;
+    background-color: rgb(252, 237, 245);
     border-radius: 20px;
     width: 800px;
     height: 270px;
