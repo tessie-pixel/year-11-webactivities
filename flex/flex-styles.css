@@ -1,0 +1,45 @@
+body {
+    margin: auto;
+    background-color: rgb(232, 239, 250);
+}
+
+.text {
+    text-align: center;
+    width: 600px;
+    border: solid black 3px;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.container-space-around-wrap {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: solid black 3px;
+
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+ border-radius: 20px;
+    
+}
+
+.container-center-no-wrap {
+
+    display: flex;
+    width: 80%;
+    margin: 90px auto;
+    justify-content: center;
+    border: solid black 3px;
+
+}
