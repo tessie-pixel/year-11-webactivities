@@ -47,6 +47,58 @@ header {
    padding-top: 40px;
 }
 
+  /*stuff for the about page*/
+  .container-with-flex-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px;
+    
+
+
+  }
+  .flex-card {
+  
+   width: 200px;
+   padding: 10px;
+   margin: 20px;
+   background-color: rgb(230, 243, 255);
+   border-radius: 20px;
+   
+
+
+  }
+
+  .flex-card-img {
+   
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .flex-card-img img {
+    width: 200px;
+  }
+
+
+
+  .flex-card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+
+  .flex-card-text h3 {
+    background-color: white;
+     text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 10px 20px;
+      border-radius: 20px;
+    
+  }
 
 .text {
     text-align: center;
