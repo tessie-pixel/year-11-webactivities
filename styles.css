@@ -39,6 +39,7 @@ body{
 
 .links li {
     display: inline-block;
+    padding: 20px;
 }
 .links a {
     color: black;
@@ -46,7 +47,7 @@ body{
     font-size: 20px;
     margin: 0 8px;
     font-family: "Inconsolata", monospace;
-    padding: 40px;
+    padding: 20px;
 }
 
 
