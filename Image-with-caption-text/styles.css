@@ -1,0 +1,32 @@
+.img-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 500px; /* or set a fixed width */
+    height: auto;
+     margin: 0 auto;
+  }
+  
+  .image-container .caption {
+    position: absolute;
+    bottom: 0; /* bottom of the image */
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
